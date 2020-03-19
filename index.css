@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: Raleway;
+  font-size: 0.95rem;
+}
+
+.picture {
+  background: linear-gradient(rgba(54, 57, 59, 0.5), rgba(54, 57, 59, 0.5)),
+    url("./bgimage_drivers.jpg");
+  background-size: 100% 100%;
+  color: white;
+}
+
+.container-fluid {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.signup-container {
+  margin-top: 8%;
+}
+
+.navbar * {
+  margin-right: 3%;
+}
+
+.btn-proceed {
+  color: white !important;
+  background-color: rgb(64, 223, 109) !important;
+  width: 100%;
+}
+
+#countryCode {
+  background-color: white;
+}
+
+.green-text {
+  color: rgb(64, 223, 109);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.centerText {
+  margin-top: 40%;
+  margin-left: 33%;
+}
+
+.flexCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerText > h1 {
+  font-weight: 800;
+}
