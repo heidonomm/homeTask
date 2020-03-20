@@ -13,31 +13,33 @@
 
 
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid h-100">
             <div class="row h-100">   
-                <div class="col d-none d-lg-flex flex-column picture">
-                    <div class="d-flex justify-content-start ml-2 mt-2">
+                <div class="col h-100 d-none d-lg-flex flex-column picture">
+                    <div class="d-flex justify-content-start ml-2 mt-3">
                         <h3>Insert Bolt logo</h3>
                     </div>
-                    <div class="centerText">
-                        <h1>Drive with Bolt</h1>
-                        <p>Earn good money with your car</p>
+                    <div class="d-flex h-100 flex-column justify-content-center align-items-center centerText">
+                        <div>
+                            <h1 class="mb-2 bold-font">Drive with Bolt</h1>
+                            <p>Earn good money with your car.</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="col pr-0">
+                <div class="col pr-0 pl-0">
 
                     <nav class="d-flex navbar align-items-center justify-content-end flex-nowrap mt-2 mr-0 pr-0">
-                        <p class="mr-auto d-lg-none logo"><b>Insert Bolt logo</b></p>
-                        <p class="d-none d-lg-inline mb-0">Already have an account?</p>
-                        <button type="button" class="btn px-4 btn-dark btn-xs nowrap"><b>Signin</b></button>
-                        <i class="fas fa-globe fa-lg cursorPointer"></i>
-                        <p class="d-none d-lg-inline mb-0 cursorPointer">English</p>    
+                        <p class="mr-auto mt-3 d-lg-none logo"><b>Insert Bolt logo</b></p>
+                        <p class="d-none d-lg-inline mb-0 mr-3">Already have an account?</p>
+                        <button type="button" class="btn px-4 btn-dark btn-xs nowrap mr-3"><b>Signin</b></button>
+                        <i class="fas fa-globe fa-lg cursorPointer mr-3"></i>
+                        <p class="d-none d-lg-inline mb-0 cursorPointer mr-3">English</p>    
                     </nav>
 
-                    <div class="d-flex flex-column align-items-center justify-content-center">
+                    <div class="d-flex flex-column align-items-center justify-content-center mx-4">
                         <div class="signup-container">
-                            <h4><b>Sign up as a driver</b></h4>
+                            <h3 class="bold-font">Sign up as a driver</h3>
                             <p>Sign up here if you're a driver who would like to use Bolt's platform.</p>
                             <form>
 
@@ -71,19 +73,16 @@
                                     <input type="city" class="form-control" id="city">
                                 </div>
                             </form>
-                            <div class="form-check">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input" type="checkbox" value="" id="userAgreement">
-                                    <span class="custom-control-indicator"></span>
-                                    <label class="custom-control-description" for="userAgreement">
-                                        By signing up, you accept our <u>Terms of Service</u> and <u>Privacy Policy</u>
-                                    </label>
-                                </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" value="" id="userAgreement">
+                                <label class="custom-control-label" for="userAgreement">
+                                    By signing up, you accept our <u>Terms of Service</u> and <u>Privacy Policy</u>
+                                </label>
                             </div>
                             <button type="button" class="btn btn-proceed my-3">Proceed</button>
                         </div>
                         <p> Have multiple cars and drivers?</p>
-                        <p class="green-text">Signup as a fleet owner</span>
+                        <p class="green-text cursorPointer">Signup as a fleet owner</span>
 
                         
                     </div>
